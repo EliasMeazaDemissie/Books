@@ -1,0 +1,28 @@
+{%extends 'base.html'%} 
+
+{%block head%}
+
+{%endblock%}
+
+{%block body%}
+<table border="1">
+    <thead>
+        <tr>
+            
+            <th>Phone Number</th>
+            </tr>
+    </thead>
+    <tbody>
+        {% for row in data %}
+        
+        <tr>
+            
+            <td>{{ row[0] }}</td>
+            </tr>
+        {% endfor %}
+        
+     
+    </tbody>
+</table>  
+
+{%endblock%}

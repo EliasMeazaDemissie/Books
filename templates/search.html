@@ -1,0 +1,47 @@
+{%extends 'base.html'%} 
+
+{%block head%}
+
+{%endblock%}
+
+{%block body%}
+
+<ul class="horizontal-list">
+    <li id="logo"><a href="home.html"><img src="images/logo.png" ></a></li>
+    <li ><a href="home.html">Home</a></li>
+    <li class="active"><a href="search.html">Search</a></li>
+    <li><a href="#">Add</a></li>
+    <li><a href="#">edit</a></li>
+    <li><a href="#">delete</a></li>
+
+
+</ul>
+
+<form class="main" action="." method="post">
+   
+    <label for="">Enter your id <input type="text" name="id"></label>
+    <input type="submit" value="submit">
+</form>  
+
+<!-- <table border="1">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Phone Number</th>
+            </tr>
+    </thead>
+    <tbody>
+        {% for row in data %}
+        
+        <tr>
+            <td>{{ row[0] }}</td>
+            <td>{{ row[1] }}</td>
+            </tr>
+        {% endfor %}
+        
+     
+    </tbody>
+</table> -->
+
+
+{%endblock%}

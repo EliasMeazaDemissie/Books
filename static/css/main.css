@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    font-size: large;
+    
+}
+.main,table{
+    margin-left: 36%;
+    margin-top: 10%;
+}
+h1{
+    margin-left: 30px;
+}
+.horizontal-list {
+    
+    list-style: none;
+    display: flex; /* Make list items display horizontally */
+    padding: 0;
+    margin: 0;
+    margin-top: 30px;
+}
+
+.horizontal-list li {
+    margin-top: 2.5%;
+    margin: 0 10px; /* Add spacing between list items */
+    display: inline-block; /* Allow setting individual widths */
+    padding: 10px 20px; /* Create padding around text */
+    border: 1px solid #ccc; /* Add a subtle border */
+    border-radius: 5px; /* Add rounded corners */
+    cursor: pointer; /* Indicate clickable elements */
+}
+
+.horizontal-list li a {
+    text-decoration: none; /* Remove underline from links */
+    color: black;
+}
+
+.horizontal-list li.active {
+    background-color: #eee; /* Highlight active item (optional) */
+}
+
+#logo{
+    margin-right: 37%;
+    margin-left: 6%;
+    border: none;
+}
+
+
+.book-container {
+    display: flex; /* Arrange image and description side-by-side */
+    margin: 50px auto; /* Add some margin for better layout */
+    max-width: 800px; /* Set a maximum width for responsiveness */
+}
+
+.book-container img {
+    width: 300px; /* Adjust image width as needed */
+    margin-right: 20px; /* Add spacing between image and description */
+}
+
+.book-description {
+    flex: 1; /* Allow description to fill remaining space */
+}
+
+.book-description h2 {
+    margin: 0; /* Remove top margin for better heading display */
+}
+.landing{
+    background-image: url(https://ethio-bookstore.com/wp-content/uploads/2021/03/Photo-by-Alfons-Morales-on-Unsplash-scaled-1535x900-1.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.landing h1{
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: bisque;
+
+}
